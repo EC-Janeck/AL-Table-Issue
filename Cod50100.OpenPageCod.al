@@ -4,7 +4,7 @@ codeunit 50100 "Open Page Cod"
     var
         TestListP: Page "Test List";
     begin
-        TestListP.SetForgetfulBooleanForTestTable(true);
+        TestListP.SetForgetfulBooleanOnPage(true);
         TestListP.Run();
     end;
 }

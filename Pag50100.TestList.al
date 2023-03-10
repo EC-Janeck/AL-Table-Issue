@@ -24,15 +24,15 @@ page 50100 "Test List"
         }
     }
     var
-        ForgefulBooleanForTestTableG: Boolean;
+        ForgefulBooleanForPageTableG: Boolean;
 
     trigger OnAfterGetCurrRecord()
     begin
-        Rec.SetForgetfulBoolean(ForgefulBooleanForTestTableG);
+        Rec.SetForgetfulBoolean(ForgefulBooleanForPageTableG);
     end;
 
-    procedure SetForgetfulBooleanForTestTable(NewForgetfulBoolean: Boolean)
+    procedure SetForgetfulBooleanOnPage(NewForgetfulBoolean: Boolean)
     begin
-        ForgefulBooleanForTestTableG := NewForgetfulBoolean;
+        ForgefulBooleanForPageTableG := NewForgetfulBoolean;
     end;
 }

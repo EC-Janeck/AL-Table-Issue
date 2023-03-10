@@ -34,9 +34,4 @@ table 50100 "Test Tab"
     begin
         ForgetfulBooleanG := NewForgetfulBooleanP;
     end;
-
-    trigger OnInsert()
-    begin
-        Message('Forgetful %1', ForgetfulBooleanG);
-    end;
 }
